@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 1366px;
+    margin: 0px auto;
+}
+
+header li,h1 {
+    display: inline;
+    color: rgb(218, 231, 33);
+}
+
+.articles{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles article img{
+    height: 200px;
+}
+
+.articles article{
+    width: 20%;
+}
+
+.articles article p{
+    font-family:'Franklin Gothic Medium';
+    font-size: small;
+    font-style: italic;
+}
+
+
+body >header{
+    background-color: #777;
+    padding: 8px 0px;
+    border: solid rgb(255, 0, 64) 4px;
+    border-radius: 2px;
+}
+
+#sports{
+    background-color: #999;
+}
+
+#economy{
+    background-color: aquamarine;
+}
+
+#sports article a{
+    background-color: rgb(238, 236, 130);
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px;
+    border: #777 solid 3px;
+    color: green;
+    text-decoration: none;
+    
+}
+
+#economy article a{
+    background-color: red;
+    margin-top: 10px;
+    padding: 8px;
+    display: inline-block;
+    border: #000 solid 3px;
+    color:white;
+    text-decoration: none;
+}
