@@ -9,9 +9,39 @@
     margin: 0px auto;
 }
 
-header li,h1 {
-    display: inline;
-    color: rgb(218, 231, 33);
+header .conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    align-items: center;
+}
+
+header h1:hover{
+    font-size: 38px;
+    align-items: center;
+}
+
+.conteiner h2:hover{
+    text-decoration: underline;
+    font-size: 36px;
+    text-transform: unset;
+}
+
+.conteiner h3:hover{
+    border-style: double;
+}
+
+header li,a {
+    display:inline;
+    color: #fff;
+    font-family: verdana;
+    text-decoration: none;
+    }
+
+header li a:hover {
+text-decoration: underline;
+color: rgb(162, 165, 3);
 }
 
 .articles{
@@ -20,7 +50,7 @@ header li,h1 {
 }
 
 .articles article img{
-    height: 200px;
+    height: 180px;
 }
 
 .articles article{
@@ -33,7 +63,6 @@ header li,h1 {
     font-style: italic;
 }
 
-
 body >header{
     background-color: #777;
     padding: 8px 0px;
@@ -43,6 +72,14 @@ body >header{
 
 #sports{
     background-color: #999;
+}
+
+#politica{
+    background-color: gold;
+}
+
+#cinema{
+    background-color: rgb(179, 35, 35);
 }
 
 #economy{
@@ -57,7 +94,66 @@ body >header{
     border: #777 solid 3px;
     color: green;
     text-decoration: none;
-    
+}
+
+#sports article a:hover{
+    border: black 2px solid;
+    color: blue;
+    text-decoration: overline underline;
+}
+
+#cinema article a{
+    border: solid 2px rgb(22, 17, 22);
+    color: black;
+    background-color:white;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#politica article a{
+    border: solid 2px rgb(22, 17, 22);
+    color: black;
+    background-color:white;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#politica article a:hover{
+    border: 3px solid red;
+    color: rgb(7, 5, 10);
+    text-decoration: overline underline;
+    background-color: rgb(0, 255, 128);
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#cinema article a{
+    border: solid 2px rgb(22, 17, 22);
+    color: rgb(238, 232, 232);
+    background-color:rgb(2, 2, 2);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+#cinema article a:hover{
+    border: 3px solid red;
+    color: rgb(7, 5, 10);
+    text-decoration: overline underline;
+    background-color: rgb(68, 0, 255);
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+#economy article a:hover{
+    outline-style: dotted;
+    color: rgb(92, 58, 156);
+    text-decoration: overline underline;
 }
 
 #economy article a{
@@ -68,4 +164,19 @@ body >header{
     border: #000 solid 3px;
     color:white;
     text-decoration: none;
+}
+
+.articles article h3{
+    font-size: 20px;
+}
+
+.conteiner h2{
+    font-size: 32px;
+    margin: 16px 0px;
+}
+
+time{
+    font-size: small;
+    text-decoration: underline;
+    
 }
